@@ -18,8 +18,10 @@ This repository contains configuration file for Flight Factor A320 Connector plu
 
 # To-Do:
 - [x] Rename inputs to more "human readable format" like "MCDU 1 INT button" instead of "MCDU 1 Page X".
-- [x] Add rest of MCDU1 & MCDU2 buttons (70 buttons now working on each MCDU).
+- [x] Add rest of MCDU1 & MCDU2 buttons (72 buttons now working on each MCDU).
 - [ ] Language correction for readme file.
+- [ ] Update screenshots.
+- [ ] Add video.
 
 # Screenshot from X-Plane 11:
 ![Screenshot from X-Plane 11](https://image.ibb.co/hSZ1jw/123.jpg)
