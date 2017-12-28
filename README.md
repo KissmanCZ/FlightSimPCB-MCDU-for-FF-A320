@@ -3,7 +3,7 @@ This repository content configuration file for Flight Factor A320 Connector plug
 
 # What you need:
 * Flight Factor A320 - [X-Plane store](http://store.x-plane.org/A320-Ultimate_p_688.html) 
-* FF A320 Connector Plugin - [X-Plane forum](https://forums.x-plane.org/index.php?/forums/topic/133133-a320-connector-plugin-joystick-mappings-commands-datarefs-winmac/) - (registration is not needed) 
+* FF A320 Connector Plugin - [X-Plane forum](https://forums.x-plane.org/index.php?/forums/topic/133133-a320-connector-plugin-joystick-mappings-commands-datarefs-winmac/) - registration is not needed 
 * FlightSim PCB MCDU - [FS PCB store](https://flightsimpcb.com/en/) 
 * custom.cfg file from this repository
 
