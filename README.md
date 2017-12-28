@@ -14,7 +14,7 @@ This repository content configuration file for Flight Factor A320 Connector plug
 4. Copy custom.cfg to installation folder of plugin.
 5. Now you can start your X-Plnae and map all of your MCDU keys to your FlightSim PCB MCDU!
 
-**Notes:** step 2 is not required, but recommended. You can update your Flight Factor A320 if you run X-Updater-Client from folder, where your Flight Factor A320 is installed - [Java] required(https://java.com/en/download/).
+**Notes:** step 2 is not required, but recommended. You can update your Flight Factor A320 if you run X-Updater-Client from folder, where your Flight Factor A320 is installed - [Java](https://java.com/en/download/) required.
 
 # TO-DO:
 1. Rename inputs to more "human readable format" like "MCDU 1 INT button" instead of "MCDU 1 Page X".
