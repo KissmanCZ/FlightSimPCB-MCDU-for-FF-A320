@@ -1,5 +1,5 @@
 # FlightSimPCB MCDU config file for FF A320 Connector
-This repository content configuration file for Flight Factor A320 Connector plugin. This configuration file allows you to map all MDCU buttons to your FlightSim PCB MCDU easily!
+This repository contains configuration file for Flight Factor A320 Connector plugin. This configuration file allows you to map all MDCU buttons to your FlightSim PCB MCDU easily!
 
 # What you need:
 * Flight Factor A320 - [X-Plane store](http://store.x-plane.org/A320-Ultimate_p_688.html) 
