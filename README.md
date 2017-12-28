@@ -12,3 +12,4 @@ This repository content config file for FF A320 Connector plugin
 1. Rename inputs to more "human readeble format"
 2. Add rest of buttons
 3. Complete readme for all links to FlightSimPCB
+4. Language correction for readme
