@@ -18,5 +18,5 @@ This repository content configuration file for Flight Factor A320 Connector plug
 
 # TO-DO:
 1. Rename inputs to more "human readable format" like "MCDU 1 INT button" instead of "MCDU 1 Page X".
-2. Add rest of MCDU1 & MCDU2 buttons.
+2. Add rest of MCDU1 & MCDU2 buttons (70 buttons now working on each MCDU).
 3. Language correction for readme file.
