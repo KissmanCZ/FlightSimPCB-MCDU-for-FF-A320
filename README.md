@@ -21,4 +21,5 @@ This repository content configuration file for Flight Factor A320 Connector plug
 2. Add rest of MCDU1 & MCDU2 buttons (70 buttons now working on each MCDU).
 3. Language correction for readme file.
 
-![Image of Yaktocat](https://image.ibb.co/hSZ1jw/123.jpg)
+# Screenshot from X-Plane 11:
+![Screenshot from X-Plane 11](https://image.ibb.co/hSZ1jw/123.jpg)
