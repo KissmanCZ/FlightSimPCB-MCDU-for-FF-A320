@@ -11,14 +11,16 @@ This repository contains configuration file for Flight Factor A320 Connector plu
 1. Install your Flight Factor A320 (you can skip this step if you already done this).
 2. Update your Flight Factor A320 to latest version (you can skip this step if you already done this).
 3. Install FF A320 Connector plugin (you can skip this step if you already done this).
-4. Copy custom.cfg to installation folder of plugin.
+4. Copy all files from archive to installation folder of X-Plane. Please read notes!
 5. Now you can start your X-Plane and map all of your MCDU keys to your FlightSim PCB MCDU!
 
-**Notes:** step 2 is not required, but recommended. You can update your Flight Factor A320 if you run X-Updater-Client from folder, where your Flight Factor A320 is installed - [Java](https://java.com/en/download/) required.
+**Notes:** step 2 is not required, but recommended. You can update your Flight Factor A320 if you run X-Updater-Client from folder, where your Flight Factor A320 is installed - [Java](https://java.com/en/download/) required. Step 5 will works correctly, only if you have installed your Flight Factor A320 in folder Aircraft\Flight Factor\Airbus A320! If not, please update your path accordingly.
 
 # To-Do:
 - [x] Rename inputs to more "human readable format" like "MCDU 1 INT button" instead of "MCDU 1 Page X".
 - [x] Add rest of MCDU1 & MCDU2 buttons (72 buttons now working on each MCDU).
+- [x] Create mapping profile for X-Plane for FlightSimPCB USB ID
+- [ ] Create clickable image for easy mapping in X-Plane
 - [ ] Language correction for readme file.
 - [ ] Update screenshots.
 - [ ] Add video.
