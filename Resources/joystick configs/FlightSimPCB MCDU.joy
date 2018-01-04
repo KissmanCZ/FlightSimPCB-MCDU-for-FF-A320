@@ -1,0 +1,146 @@
+I
+1100 Version
+JOY
+
+# NOTE:
+# If X-Plane did not come with a default configuration for your device,
+# and you would like to share *your* configuration with the world,
+# email this file to tyler+joysticks@x-plane.com and we will evaluate
+# it for inclusion with the simulator. Thanks!!
+
+# You can find a complete spec for this file format, with instructions on configuring
+# both the device views and the default configuration here:
+# http://lookup.x-plane.com/_lookup_11_/joy_file_spec.html
+
+# One or more operating systems this file applies to.
+# Windows, macOS, and Linux will index the axes differently, so a file
+# that correctly configures your joystick on one platform is *not*
+# guaranteed to work on the other.
+OS: Windows
+# Other valid options:
+# OS: Linux
+# OS: Mac
+
+# Zero or more device names (provided by the operating system, as seen in the UI)
+# that this .joy file describes.
+# (Note that you need at least one name or one ID, described below.)
+# If more than one device is named, we're saying that *any* of those devices should be configured
+# using the *same* defaults and the same image maps.
+Name: FSPCB MCDU
+
+# Zero or more USB identifiers (vendor ID + product ID) that this .joy file describes.
+# (Note that you need at least one ID or Name, described above.)
+# If more than USB identifier is given, we'll use this .joy file to configure *any* of those devices.
+ID: VID:0x04d8PID:0x1608
+
+Assignments:
+--------------------------------------------------------------
+# FORMAT FOR AXES:
+# Axis <axis number>: hidden
+# Axis <axis number>: <joy use>
+#	Valid joy uses are:
+#	 joy_use_none	joy_use_ptch	joy_use_roll
+#	 joy_use_hdng	joy_use_thro	joy_use_coll
+#	 joy_use_lbrk	joy_use_rbrk	joy_use_prop
+#	 joy_use_mixt	joy_use_heat	joy_use_flap
+#	 joy_use_vect	joy_use_swee	joy_use_sbrk
+#	 joy_use_disp	joy_use_reverse	joy_use_elev_tr
+#	 joy_use_ailn_tr	joy_use_rudd_tr	joy_use_thro1
+#	 joy_use_thro2	joy_use_thro3	joy_use_thro4
+#	 joy_use_prop1	joy_use_prop2	joy_use_prop3
+#	 joy_use_prop4	joy_use_mixt1	joy_use_mixt2
+#	 joy_use_mixt3	joy_use_mixt4	joy_use_reverse1
+#	 joy_use_reverse2	joy_use_reverse3	joy_use_reverse4
+#	 joy_use_gear	joy_use_tiller	joy_use_back_thro
+#	 joy_use_cowl_flaps	JOY_OLD_UNUSED	joy_use_view_lr
+#	 joy_use_view_ud	joy_use_view_zoom	joy_use_camera_lr
+#	 joy_use_camera_ud	joy_use_camera_zoom	joy_use_gun_lr
+#	 joy_use_gun_ud
+
+
+# FORMAT FOR BUTTONS:
+# Button <button number>: hidden
+# Button <button number>: <command path, like "sim/operation/quit">
+#	See X-Plane/Resources/plugins/Commands.txt for a complete list of commands
+Button 0: FlightSim PCB/MCDU 1/Line01Click
+Button 1: FlightSim PCB/MCDU 1/Line05Click
+Button 2: FlightSim PCB/MCDU 1/Line09Click
+Button 3: FlightSim PCB/MCDU 1/Line02Click
+Button 4: FlightSim PCB/MCDU 1/Num01Click
+Button 5: FlightSim PCB/MCDU 1/Num03Click
+Button 6: FlightSim PCB/MCDU 1/Num07Click
+Button 7: FlightSim PCB/MCDU 1/Line06Click
+Button 8: FlightSim PCB/MCDU 1/Line12Click
+Button 9: FlightSim PCB/MCDU 1/Line03Click
+Button 10: FlightSim PCB/MCDU 1/Line07Click
+Button 11: FlightSim PCB/MCDU 1/Line11Click
+Button 12: FlightSim PCB/MCDU 1/Line04Click
+Button 13: FlightSim PCB/MCDU 1/Num02Click
+Button 14: FlightSim PCB/MCDU 1/Num04Click
+Button 15: FlightSim PCB/MCDU 1/Num08Click
+Button 16: FlightSim PCB/MCDU 1/Line08Click
+Button 17: FlightSim PCB/MCDU 1/Line10Click
+Button 18: FlightSim PCB/MCDU 1/Page01Click
+Button 19: FlightSim PCB/MCDU 1/Page06Click
+Button 20: FlightSim PCB/MCDU 1/Page12Click
+Button 21: FlightSim PCB/MCDU 1/Page13Click
+Button 22: FlightSim PCB/MCDU 1/Page15Click
+Button 23: FlightSim PCB/MCDU 1/Num05Click
+Button 24: FlightSim PCB/MCDU 1/Num09Click
+Button 25: FlightSim PCB/MCDU 1/Num11Click
+Button 27: FlightSim PCB/MCDU 1/Page02Click
+Button 28: FlightSim PCB/MCDU 1/Page07Click
+Button 30: FlightSim PCB/MCDU 1/Page14Click
+Button 31: FlightSim PCB/MCDU 1/Page16Click
+Button 32: FlightSim PCB/MCDU 1/Num06Click
+Button 33: FlightSim PCB/MCDU 1/Num10Click
+Button 34: FlightSim PCB/MCDU 1/Num12Click
+Button 36: FlightSim PCB/MCDU 1/Page03Click
+Button 37: FlightSim PCB/MCDU 1/Page08Click
+Button 38: FlightSim PCB/MCDU 1/Key01Click
+Button 39: FlightSim PCB/MCDU 1/Key06Click
+Button 40: FlightSim PCB/MCDU 1/Key11Click
+Button 41: FlightSim PCB/MCDU 1/Key16Click
+Button 42: FlightSim PCB/MCDU 1/Key21Click
+Button 43: FlightSim PCB/MCDU 1/Key26Click
+Button 45: FlightSim PCB/MCDU 1/Page04Click
+Button 46: FlightSim PCB/MCDU 1/Page09Click
+Button 47: FlightSim PCB/MCDU 1/Key02Click
+Button 48: FlightSim PCB/MCDU 1/Key07Click
+Button 49: FlightSim PCB/MCDU 1/Key12Click
+Button 50: FlightSim PCB/MCDU 1/Key17Click
+Button 51: FlightSim PCB/MCDU 1/Key22Click
+Button 52: FlightSim PCB/MCDU 1/Key27Click
+Button 54: FlightSim PCB/MCDU 1/Page05Click
+Button 55: FlightSim PCB/MCDU 1/Page10Click
+Button 56: FlightSim PCB/MCDU 1/Key03Click
+Button 57: FlightSim PCB/MCDU 1/Key08Click
+Button 58: FlightSim PCB/MCDU 1/Key13Click
+Button 59: FlightSim PCB/MCDU 1/Key18Click
+Button 60: FlightSim PCB/MCDU 1/Key23Click
+Button 61: FlightSim PCB/MCDU 1/Key28Click
+Button 64: FlightSim PCB/MCDU 1/Page11Click
+Button 65: FlightSim PCB/MCDU 1/Key04Click
+Button 66: FlightSim PCB/MCDU 1/Key09Click
+Button 67: FlightSim PCB/MCDU 1/Key14Click
+Button 68: FlightSim PCB/MCDU 1/Key19Click
+Button 69: FlightSim PCB/MCDU 1/Key24Click
+Button 70: FlightSim PCB/MCDU 1/Key29Click
+Button 72: FlightSim PCB/MCDU 1/BrtClick
+Button 73: FlightSim PCB/MCDU 1/DimClick
+Button 74: FlightSim PCB/MCDU 1/Key05Click
+Button 75: FlightSim PCB/MCDU 1/Key10Click
+Button 76: FlightSim PCB/MCDU 1/Key15Click
+Button 77: FlightSim PCB/MCDU 1/Key20Click
+Button 78: FlightSim PCB/MCDU 1/Key25Click
+Button 79: FlightSim PCB/MCDU 1/Key30Click
+
+
+# FORMAT FOR HAT SWITCHES:
+# Hat Switch <hat switch number>: hidden
+# Hat Switch <hat switch number> Direction <hat switch direction>: <command path, like "sim/operation/quit">
+#	See X-Plane/Resources/plugins/Commands.txt for a complete list of commands
+
+View: Top
+-----------------------------------------------------------------------
+Image: flightsimpcbmcdu.png
